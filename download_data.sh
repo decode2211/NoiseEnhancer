@@ -39,3 +39,5 @@ done
 
 echo "Done. Files are in $RAW_DIR/"
 ls -la
+
+
