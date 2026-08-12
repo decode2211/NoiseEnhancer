@@ -1,0 +1,5 @@
+# Speech enhancement datasets
+data/raw/*.zip
+data/raw/*_wav/
+*.wav
+*.crdownload
