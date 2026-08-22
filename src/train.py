@@ -64,8 +64,8 @@ def main():
     data_cfg = cfg.get("data", {})
     train_cfg = cfg.get("train", {})
 
-    noisy_train_dir = data_cfg.get("noisy_train_dir", "data/raw/noisy_trainset_wav")
-    clean_train_dir = data_cfg.get("clean_train_dir", "data/raw/clean_trainset_wav")
+    noisy_train_dir = data_cfg.get("noisy_train_dir", "data/raw/noisy_trainset_28spk_wav")
+    clean_train_dir = data_cfg.get("clean_train_dir", "data/raw/clean_trainset_28spk_wav")
     noisy_test_dir = data_cfg.get("noisy_test_dir", "data/raw/noisy_testset_wav")
     clean_test_dir = data_cfg.get("clean_test_dir", "data/raw/clean_testset_wav")
 
