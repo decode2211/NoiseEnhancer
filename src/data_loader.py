@@ -107,8 +107,8 @@ if __name__ == "__main__":
     from torch.utils.data import DataLoader
 
     ds = NoisyCleanDataset(
-        "data/raw/noisy_trainset_wav",
-        "data/raw/clean_trainset_wav",
+        "data/raw/noisy_trainset_28spk_wav",
+        "data/raw/clean_trainset_28spk_wav",
         segment_seconds=2.0,
         train=True,
     )
